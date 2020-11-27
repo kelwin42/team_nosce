@@ -1,0 +1,54 @@
+.nav-bg{
+  scroll-padding: 5px;
+}
+.image{
+  width: 100%;
+  padding: 10px 15px 10px 15px;
+  margin: 0;
+}
+.introhead{
+  text-align: center;
+  padding-top: 5px;
+  color: white;
+}
+.introimg{
+  padding-left: 30px;
+}
+/*.navbar-coustomm{
+  background-color: #70ff85;
+}*/
+.enquiry{
+  text-align: center;
+  font-size: 30px;
+}
+[placeholder]{
+  font-weight: normal;
+  padding-left: 15px;
+  text-decoration: none;
+  text-indent: 6px;
+}
+input,textarea{
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+.sideimage{
+  display: flex;
+  justify-content: center;
+  background-color: #00ccff;
+}
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:50%;
+width:100%;
+position:absolute;
+}
