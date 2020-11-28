@@ -6,6 +6,9 @@
   padding: 10px 15px 10px 15px;
   margin: 0;
 }
+.logo{
+  height: 30px;
+}
 .introhead {
   text-align: center;
   padding-top: 5px;
