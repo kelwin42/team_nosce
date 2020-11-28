@@ -34,21 +34,48 @@ input,textarea{
   border-radius: 5px;
   border: 2px solid black;
 }
-.sideimage{
-  display: flex;
+.sidebg {
+  display: block;
   justify-content: center;
-  background-color: #00ccff;
+  background-color: #00c8ff;
 }
-.map-container{
-overflow:hidden;
-padding-bottom:56.25%;
-position:relative;
-height:0;
+.sideimg {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  position: relative;
 }
-.map-container iframe{
-left:0;
-top:0;
-height:50%;
-width:100%;
-position:absolute;
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 50%;
+  width: 100%;
+  position: absolute;
+}
+/*p {
+  overflow-wrap: break-word;
+  white-space: normal;
+}*/
+.intext {
+  margin: 15px 0;
+figure {
+  margin: 0 15px 15px 0;
+figcaption{
+  font-size: small;
+  color: white;
+  background: black;
+  padding: 5px;
+}
+}
+h2 {
+margin-top: 0;
+}
+.video-fluid{
+  width: 100%;
+  height: auto;
 }
